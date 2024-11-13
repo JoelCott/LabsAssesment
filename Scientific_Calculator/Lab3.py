@@ -1,12 +1,15 @@
 # --// Scientific Calculator \\--
 
 # --// Vairables & Services \\--
+
 import math
 import time
 List1 = []
 Quit = 'n'
 while Quit != 'y':
+    
 # --// Functions, Procedures & Paramaters \\--
+
     def mainQuestion():
         for i in range(0,len(List1)):
             List1.pop()
@@ -187,9 +190,8 @@ while Quit != 'y':
             mainQuestion()
         
 
-    
-
 # --// Main Code \\--
+
     print("****---Welcome to the calculator---****")
     print("\n")
     print("Enter a MAXIMUM of 1 number if you decide to use the trigonomotry option. This is for the angle degree to work out the trigonometry of the value.")
@@ -231,6 +233,3 @@ while Quit != 'y':
     else:
         print("ERROR - The number you have entered has not been registered. Please try again.")
         mainQuestion()
-
-    
-
