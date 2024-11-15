@@ -4,11 +4,13 @@
 * LabAssessment > Soduku > Lab5.py
 
 ### Lab Overview
-* In this project I have created the Soduku game. You are able to input your own numbers in the order of row, column, number and this will allow you to input your own values to attempt to beat the game. I will now list the different functions and what they do.
-1. createGrid() - Function runs to the code to build the sudoko grid.
-2. displayGrid() - Prints out the grid created above to the user.
-3. validateMove() - Checks that your input is valid and can be placed in the grid or not
-4. Everything under --// Main Code \-- is the whole program that runs which the user will see on the user interface.
+* In this project I have created the Soduku game. You are able to input your own numbers in the order of row, column, number and this will allow you to input your own values to attempt to beat the game. I will now procedurally list thow the program functions and what it does.
+1. The game will start with creating the 9x9 grid
+2. The program will then begin a while loop to allow the program to repeat
+3. First operation in the loop is printing the grid to the user, this is in the loop so that after every move it will print a newly updated grid
+4. The user then gets to input their number into the program
+5. The number will then go through a series of data validation
+6. When the data is validated it will bea dded to the grid and then the program will repeat until the grid is full. If the number fails the validation check, it will not be appended to the grid and the user will be asked to input another number.
 
 ### How to download the repository and run the program
 1. Download Visual Studio Code or an IDE of your choice. (Visual Studio code it recomended as you can easilly open a GitHub repository.)
